@@ -1,0 +1,270 @@
+body {
+  background-color: #1c1c1c;
+  font-family: "Inter";
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  margin: 70px 0px 16px 0px;
+  padding: 0px 0px 9.6px;
+  vertical-align: baseline;
+  line-height: 40px;
+  letter-spacing: 0.35px;
+  font-weight: 600;
+  font-size: 32px;
+  color: #dfdfdf;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #77e1cd;
+  font-family: sans-serif;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+li {
+  list-style: none;
+}
+.entire {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-bottom: 40px 15px 80px 15px;
+}
+
+#first:hover{
+  text-decoration: underline;
+}
+#second:hover{
+  text-decoration: underline;
+}#third:hover{
+  text-decoration: underline;
+}#fourth:hover{
+  text-decoration: underline;
+}#fifth:hover{
+  text-decoration: underline;
+}#sixth:hover{
+  text-decoration: underline;
+}#seventh:hover{
+  text-decoration: underline;
+}#lastButOne:hover{
+  text-decoration: underline;
+}#last:hover{
+  text-decoration: underline;
+}
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 21px;
+  background-color: #A076CE;
+  border-radius: 20px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #C3A554;
+  border-radius: 20px;
+  transition: .4s;
+}
+
+.toggle-switch input:checked + .slider {
+  background-color: #A076CE;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+.toggle-switch input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+#checkBox:hover{
+cursor: pointer;
+}
+
+#line1 {
+  width: 729px;
+  height: 2.07291px;
+  margin: 24px 0;
+  background-color: #8b8b8b;
+}
+
+#line2 {
+  width: 729px;
+  height: 2.4px;
+  margin: 30px 0;
+  background-color: #8b8b8b;
+} 
+
+.forms {
+  height: 24px;
+  width: 730px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #fafafa;
+  margin:36px 0px 0px 10px;
+}
+
+.links {
+  width: 730px;
+  height: 141px;
+  margin:0px 0px 0px 15px;
+  padding: 0px;
+}
+
+.linkyLink{
+        text-align: center;
+        display: inline-block;
+        width: 80px;
+        height: 22.677px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 4px;
+        padding-left: 4px;
+}
+
+.smallLink {
+  font-size: 12.96px;
+  font-weight: 400;
+  line-height: 22.68px;
+  letter-spacing: 0.35px;
+  display: inline-block;
+}
+
+.bigLink {
+  font-size: 16px;
+  line-height: 28px;
+  vertical-align: baseline;
+  letter-spacing: 0.35px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+#lastButOne{
+  margin:0px 0px 0px 280px;
+}
+
+#first{
+  margin-left: 35px;
+}
+
+.dates {
+  font-size: 14px;
+  font-family:"Inter";
+  line-height: 24.5px;
+  letter-spacing: 0.35px;
+  margin-left: 20px;
+  font-weight: 400;
+  color: #fafafa;
+}
+.articles {
+  width: 730px;
+  height: 60px;
+  margin:50px 0px 0px 0px;
+  padding: 0px;
+}
+.articless {
+  width: 730px;
+  height: 50px;
+  margin:40px 0px 0px 0px;
+  padding: 0px;
+}
+.articlesss {
+  width: 730px;
+  height: 50px;
+  margin:40px 0px 0px 0px;
+  padding: 0px;
+}
+.articlessss {
+  width: 730px;
+  height: 50px;
+  margin:40px 0px 0px 0px;
+  padding: 0px;
+}
+
+.bottomlink {
+  font-size: 24px;
+  font-family:"Inter";
+  line-height: 30px;
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 0.35px;
+  font-weight: 600;
+  vertical-align: baseline;
+  text-align: left;
+}
+
+#sun{
+  font-size: 22px;
+  text-align: start;
+  font-weight: 500;
+  margin: 1px 0px 0px 0px;
+  margin-right: 4px;
+}
+
+.material-symbols-outlined{
+    margin-top: 1px;
+}
+
+#moon{
+  font-size: 22px;
+  text-align: start;
+  font-weight: 500;
+  margin-left: 3px;
+  margin-top: 1px;
+}
+
+
+.dark{
+background-color: #FFFFFF;
+}
+
+.dark #sun{
+  color: #333333;
+}
+
+.dark #moon{
+  color: #333333;
+}
+
+.dark h1{
+  color: #333333;
+}
+
+.dark hr{
+  color: 	#989898;
+}
+
+.dark a{
+  color: #337AB7;
+}
+
+.dark .dates{
+  color: #4D4D4D;
+}
