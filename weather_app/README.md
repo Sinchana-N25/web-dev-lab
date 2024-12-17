@@ -1,2 +1,2 @@
-A simple weather application.
+A simple weather application.<br>
 https://simpleweatherrapp.netlify.app/
