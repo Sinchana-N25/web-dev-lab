@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(-225deg, #fffeff 0%, #d7fffe 100%);
+}
+
+button {
+  margin: 20px auto 0;
+  display: block;
+  border: 0;
+  background-color: aqua;
+  border-radius: 6px;
+  padding: 14px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+#joke {
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  color: #004d4d;
+}
