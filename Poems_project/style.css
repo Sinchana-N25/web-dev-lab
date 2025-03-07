@@ -64,7 +64,12 @@ form {
   padding: 14px 24px;
 }
 
-#poem {
+.submit-button:hover {
+  background: #6e3dc8;
+  cursor: pointer;
+}
+
+.poem {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;

@@ -4,39 +4,34 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css" />
     <title>AI Poem Generator</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1>AI Poem Generator</h1>
-        </header>
+    <header>
+        <h1>AI Poem Generator</h1>
+    </header>
 
-        <main>
-            <div class="form-container">
-                <form id="poem-generator-form">
-                    <input type="text" placeholder="Enter the topic of the poem" autofocus required autocomplete="off"
-                        class="instructions" id="user-instructions" />
-                    <input type="submit" class="submit-button" value="Generate Poem" />
-                </form>
-                <div class="hint">i.e: Nature, Love, Life etc</div>
-            </div>
-            <div id="poem">
-                <div class="poem hidden">
-                    In shadows deep where secrets lie,<br>
-                    The whispers of the night drift by.<br>
-                    Each corner holds a tale untold,<br>
-                    In every glance, a mystery unfolds.
-                </div>
-            </div>
-        </main>
+    <main class="container">
+        <div class="form-container">
+            <form id="poem-generator-form">
+                <input type="text" id="user-instructions" class="instructions" placeholder="Enter the topic of the poem"
+                    autofocus required autocomplete="off" />
+                <input type="submit" class="submit-button" value="Generate Poem" />
+            </form>
+            <div class="hint">i.e: Nature, Love, Life etc</div>
+        </div>
+        <div id="poem" class="poem hidden">
+            In shadows deep where secrets lie,<br>
+            Whispers dance beneath the sky.<br>
+            The night conceals what dreams might be,<br>
+            A puzzle masked in mystery.
+        </div>
+    </main>
 
-    </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect/dist/core.js"></script>
     <script src="index.js"></script>
 </body>
 
