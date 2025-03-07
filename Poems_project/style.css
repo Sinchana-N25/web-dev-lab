@@ -52,12 +52,6 @@ form {
   line-height: 20px;
   color: #272044;
 }
-span {
-  font-size: 10px;
-  line-height: 20px;
-  margin-left: 20px;
-  color: #272044;
-}
 
 .submit-button {
   margin-left: 10px;
@@ -70,12 +64,7 @@ span {
   padding: 14px 24px;
 }
 
-.submit-button:hover {
-  background: #6e3dc7;
-  cursor: pointer;
-}
-
-.poem {
+#poem {
   font-size: 16px;
   background-color: #fff;
   padding: 20px;
@@ -86,6 +75,12 @@ span {
 
 .poem strong {
   color: #885df1;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 30px;
 }
 
 .generating {
