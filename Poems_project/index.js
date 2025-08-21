@@ -18,7 +18,7 @@ function generatePoem(event) {
   event.preventDefault();
 
   let instructionsInput = document.querySelector("#user-instructions");
-  let apiKey = "bob016b0434454afb1b302d4ct21a307";
+  let apiKey = SHECODES_KEY;
   let context =
     "You are a motivational Poem expert and love to write short poems in any language. Your mission is to generate a 4 line poem. Please respond with HTML code, using <p> tags for each line. If language is specified in 'instructionsInput', generate it in that language please. Make sure to follow the user instructions. Do not include a title to the poem.";
   let prompt = `User instructions: Generate a poem about ${instructionsInput.value}`;
